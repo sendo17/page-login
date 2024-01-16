@@ -1,0 +1,120 @@
+body {
+    background: url(./img/dessinvectorielsoleildansdysert.jpg) center/cover;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.login {
+    display: absolute;
+    height: 350px;
+    width: 300px;
+    margin-top: 12px;
+    border: 1px solid rgba(243, 238, 238, 0.594);
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.121);
+    backdrop-filter: blur(5px);
+
+}
+
+.miel {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+
+}
+
+.miel label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+#login1 {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    width: 175px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+
+}
+
+
+
+.mdp {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+
+}
+
+.mdp label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(247, 241, 241);
+}
+
+#mdp1 {
+    cursor: pointer;
+    height: 30px;
+    width: 175px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+
+
+
+
+.boutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-direction: column-reverse;
+    margin-top: 60px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid rgba(245, 6, 174, 0.966);
+    background-color: rgba(245, 15, 184, 0);
+    color: rgb(237, 18, 204);
+
+}
+
+button:active {
+    background: linear-gradient(90deg, rgba(250, 106, 3, 1) 0%, rgba(243, 0, 255, 1) 100%);
+    color: rgb(0, 0, 0);
+}
+
+input[type="text"]::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
